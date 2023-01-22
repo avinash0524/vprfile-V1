@@ -136,7 +136,13 @@
                         <contextPath>/</contextPath>
                     </webApp>
                 </configuration>
+		   
             </plugin>
+		<plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>5.6.7</version>
+      </plugin>
 		<!-- CODE COVERAGE -->
 		    <plugin>
 		        <groupId>org.jacoco</groupId>
