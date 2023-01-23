@@ -176,7 +176,7 @@ http://13.234.75.150:9000
 		                <goals>
 		                    <goal>report</goal>
 		                </goals>
-		            </execution>
+				</execution>
 		        </executions>
 		</plugin>
         </plugins>
